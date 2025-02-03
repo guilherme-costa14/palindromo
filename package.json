@@ -1,0 +1,14 @@
+{
+  "name": "palindromo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "palindromo.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Guilherme Santos Machado Costa",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^29.7.0"
+  }
+}
