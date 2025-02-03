@@ -4,10 +4,10 @@ test ('Deve retornar true', () => {
     expect(palindromo('arara')).toBe(true);
 })
 
-test ('Deve retornar false', () => {
+test ('Deve retornar true', () => {
     expect(palindromo('Subi no onibus')).toBe(true);
 })
 
-test ('Deve retornar true', () => {
+test ('Deve retornar false', () => {
     expect(palindromo('Marrocos')).toBe(false);
 })
