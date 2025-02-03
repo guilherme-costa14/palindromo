@@ -5,9 +5,9 @@ test ('Deve retornar true', () => {
 })
 
 test ('Deve retornar false', () => {
-    expect(palindromo('qualquer coisa')).toBe(false);
+    expect(palindromo('Subi no onibus')).toBe(true);
 })
 
 test ('Deve retornar true', () => {
-    expect(palindromo('ana')).toBe(true);
+    expect(palindromo('Marrocos')).toBe(false);
 })
